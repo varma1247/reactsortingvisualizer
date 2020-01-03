@@ -52,7 +52,7 @@ function App() {
       setTimeout(function() {
         const bars = document.getElementsByClassName("bars");
         if (bubbleswap[l].length === 1) {
-          bars[bubbleswap[l][0]].style.backgroundColor = "#827717";
+          bars[bubbleswap[l][0]].style.backgroundColor = "#9e9d24";
         } else {
           if (bubbleswap[l][2] === 0) {
             bars[bubbleswap[l][0]].style.backgroundColor = "red";
@@ -125,7 +125,7 @@ function App() {
             bars[selectionswap[l][0]].style.backgroundColor = "aqua";
           }
         } else {
-          bars[selectionswap[l][0]].style.backgroundColor = "#827717";
+          bars[selectionswap[l][0]].style.backgroundColor = "#9e9d24";
         }
       }, animationspeed * k);
     }
