@@ -57,7 +57,7 @@ const Bar = ({
                 width: 800 / arraysize + "px",
                 height: a * 2.2 + "px",
                 display: "inline-block",
-                backgroundColor: "aqua",
+                backgroundColor: "lightseagreen",
                 margin: "0 5px",
                 borderRadius: "5px",
                 textAlign: "center",

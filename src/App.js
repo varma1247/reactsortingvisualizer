@@ -66,8 +66,8 @@ function App() {
               bars[bubbleswap[l][1]].style.height;
             bars[bubbleswap[l][1]].style.height = tempheight;
           } else {
-            bars[bubbleswap[l][0]].style.backgroundColor = "fuchsia";
-            bars[bubbleswap[l][1]].style.backgroundColor = "fuchsia";
+            bars[bubbleswap[l][0]].style.backgroundColor = "lightseagreen";
+            bars[bubbleswap[l][1]].style.backgroundColor = "lightseagreen";
           }
         }
       }, animationspeed * k);
@@ -116,13 +116,13 @@ function App() {
               bars[selectionswap[l][1]].style.height;
             bars[selectionswap[l][1]].style.height = tempheight;
           } else {
-            bars[selectionswap[l][0]].style.backgroundColor = "fuchsia";
+            bars[selectionswap[l][0]].style.backgroundColor = "lightseagreen";
           }
         } else if (selectionswap[l].length === 2) {
           if (selectionswap[l][1] === 0) {
             bars[selectionswap[l][0]].style.backgroundColor = "red";
           } else {
-            bars[selectionswap[l][0]].style.backgroundColor = "fuchsia";
+            bars[selectionswap[l][0]].style.backgroundColor = "lightseagreen";
           }
         } else {
           bars[selectionswap[l][0]].style.backgroundColor = "green";
