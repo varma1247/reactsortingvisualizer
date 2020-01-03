@@ -9,7 +9,7 @@ import Bar from "./components/bar";
 
 function App() {
   const [arr, setArr] = useState([]);
-  const [arraysize, setArraysize] = useState(10);
+  const [arraysize, setArraysize] = useState(15);
   const [animationspeed, setAnimationspeed] = useState(200);
   useEffect(() => {
     resetArray();
@@ -52,7 +52,7 @@ function App() {
       setTimeout(function() {
         const bars = document.getElementsByClassName("bars");
         if (bubbleswap[l].length === 1) {
-          bars[bubbleswap[l][0]].style.backgroundColor = "maroon";
+          bars[bubbleswap[l][0]].style.backgroundColor = "yellow";
         } else {
           if (bubbleswap[l][2] === 0) {
             bars[bubbleswap[l][0]].style.backgroundColor = "red";
